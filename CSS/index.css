@@ -1,0 +1,80 @@
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  background: url(../image/background.jpg) 100% 100%;
+  color: #fff;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  font-size: 1.6rem;
+  align-items: center;
+}
+
+.all {
+  text-align: center;
+  width: 60rem;
+  height: 40rem;
+  font-size: 5rem;
+}
+
+.one {
+  margin-top: 6rem;
+}
+
+#one-query,
+#one-register {
+  margin: 2rem;
+  padding: 1rem;
+  cursor: pointer;
+  border: solid 0.1rem #FFFFFF;
+}
+
+.two {
+  text-align: center;
+  margin-top: 10rem;
+  display: none;
+  font-size: 3rem;
+}
+
+.three {
+  text-align: center;
+  margin-top: 10rem;
+  display: none;
+  font-size: 3rem;
+}
+
+input {
+  margin: 1rem;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 0.2rem solid #0084C7;
+  color: #FFFFFF;
+  font-size: 3rem;
+}
+
+button {
+  outline:none;
+  position: absolute;
+  bottom: 5rem;
+  left: 50%;
+  margin-left: -7.5rem;
+  right: 0;
+  width: 15rem;
+  height: 3rem;
+  background: #FFFFFF;
+  color: #000;
+  font-size: 2rem;
+  border: none;
+}
+
+button:active {
+	background: #0084C7;
+	color: #fff;
+}
+
+button:
